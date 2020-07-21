@@ -3,8 +3,8 @@
     <div class="container">
 
       <a class="navbar-brand pt-0 logo" href="#">
-        <img src="img/logo.png" alt="" class="img-fluid logo-light">
-        <img src="img/logo-dark.png" alt="" class="img-fluid logo-dark">
+        <img src="../assets/img/logo.png" alt="" class="img-fluid logo-light">
+        <img src="../assets/img/logo-dark.png" alt="" class="img-fluid logo-dark">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +45,6 @@ export default {
 
 <style scoped lang="scss">
 #nav {
-  padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
