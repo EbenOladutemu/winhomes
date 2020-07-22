@@ -12,13 +12,7 @@ import './assets/css/owl.theme.css'
 import './assets/css/owl.transitions.css'
 import './assets/css/style.css'
 import './assets/css/default.css'
-// import jquery from 'jquery'
 
-// window.$ = require('jquery')
-// window.JQuery = require('jquery')
-// import './assets/js/particles.js'
-
-// Vue.use(jquery);
 Vue.config.productionTip = false
 
 new Vue({

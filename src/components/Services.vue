@@ -4,8 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="text-center">
-            <h2>Our <span class="font-weight-bold">Services</span></h2>
-            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            <h2>What We <span class="font-weight-bold">Do</span></h2>
           </div>
         </div>
       </div>
@@ -13,74 +12,58 @@
         <div class="col-lg-4">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="mbri-growing-chart text-custom display-4"></i>
+              <i class="fas fa-home"></i>
             </div>
             <div class="mt-4">
-              <h5 class="mb-0">Graphic Design</h5>
+              <h5 class="mb-0">Real Estate Development</h5>
               <div class="services-title-border"></div>
-              <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+              <!-- <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="mbri-hot-cup text-custom display-4"></i>
+              <i class="fas fa-money-bill-alt"></i>
             </div>
             <div class="mt-4">
-              <h5 class="mb-0">Unlimited Color</h5>
+              <h5 class="mb-0">Real Estate Sales</h5>
               <div class="services-title-border"></div>
-              <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="mbri-upload text-custom display-4"></i>
+              <i class="fas fa-briefcase"></i>
             </div>
             <div class="mt-4">
-              <h5 class="mb-0">Media Marketing</h5>
+              <h5 class="mb-0">Project Management</h5>
               <div class="services-title-border"></div>
-              <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="mbri-layers text-custom display-4"></i>
+              <i class="far fa-building"></i>
             </div>
             <div class="mt-4">
-              <h5 class="mb-0">Unlimited Wifi</h5>
+              <h5 class="mb-0">Facility Management</h5>
               <div class="services-title-border"></div>
-              <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="mbri-website-theme text-custom display-4"></i>
+              <i class="fas fa-sitemap"></i>
             </div>
             <div class="mt-4">
-              <h5 class="mb-0">Responsive Design</h5>
+              <h5 class="mb-0">Architectural Designs and Approvals</h5>
               <div class="services-title-border"></div>
-              <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="text-center services-boxes rounded p-4 mt-4">
-            <div class="services-boxes-icon">
-              <i class="mbri-edit text-custom display-4"></i>
-            </div>
-            <div class="mt-4">
-              <h5 class="mb-0">Easy to customize</h5>
-              <div class="services-title-border"></div>
-              <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
             </div>
           </div>
         </div>

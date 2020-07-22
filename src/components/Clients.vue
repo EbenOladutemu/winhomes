@@ -5,13 +5,18 @@
         <div class="col-lg-12">
           <div class="text-center">
             <h2>Our <span class="font-weight-bold">Clients</span></h2>
-            <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
           </div>
         </div>
       </div>
       <div class="row mt-4 pt-4">
         <div class="col-lg-12">
-          <div id="owl-demo" class="owl-carousel">
+          <carousel
+            class="owl-carousel"
+            :loop="true"
+            :autoplay="true"
+            :autoplayHoverPause="true"
+            :items="1"
+            :nav="false">
             <div class="text-center testi_boxes mx-auto">
               <div class="tam_testi_icon text-custom">
                   <i class="mbri-quote-left"></i>
@@ -48,7 +53,7 @@
                 <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
               </div>
             </div>
-          </div>
+          </carousel>
         </div>
       </div>
     </div>
@@ -56,8 +61,13 @@
 </template>
 
 <script>
-export default {
 
+import carousel from 'vue-owl-carousel2'
+
+export default {
+  components:{
+    carousel
+  }
 }
 </script>
 
@@ -65,4 +75,14 @@ export default {
 .bg-light{
   background-color: #2e3135!important;
 }
+.owl-carousel{
+  display: block;
+}
+.owl-carousel .owl-item img{
+  width: unset;
+}
+.owl-theme .owl-nav{
+  display: none!important;
+}
+
 </style>

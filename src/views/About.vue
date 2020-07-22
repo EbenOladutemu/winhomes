@@ -1,41 +1,55 @@
 <template>
-  <section class="section" id="about">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="mt-3">
-              <img src="img/about.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="mt-3">
-            <h2><span class="font-weight-bold">About</span> Me</h2>
-            <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M Kerri Deo.</span></h4>
-            <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-            <p class="text-muted mt-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-            <p class="text-muted mt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-            </p>
-            <div>
-              <ul class="mb-0 about-social list-inline mt-4">
-                <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-dribbble"></i></a></li>
-                <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-facebook"></i></a></li>
-                <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-twitter"></i></a></li>
-              </ul> 
+  <div>
+    <Nav>
+      <li class="nav-item" slot="nav-items">
+        <router-link class="nav-link" active-class="active" to="home#services">What We Do</router-link>
+      </li>
+      <li class="nav-item" slot="nav-items">
+        <router-link class="nav-link" active-class="active" to="home#clients">Clients</router-link>
+      </li>
+    </Nav>
+    <Header>
+      <p slot="sub-text" class="text-white mx-auto header-desc mt-4">About</p>
+    </Header>
+      <section class="section" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="mt-3">
+                  <img src="../assets/img/about-img.jpeg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mt-3">
+                <h2><span class="font-weight-bold">Who</span> We Are</h2>
+                <!-- <h4 class="mt-4">Winhomes! <span class="text-custom font-weight-bold">Global Services</span></h4> -->
+                <p class="text-muted mt-4">Win Homes Global Services Ltd is a real estate sales and development company committed to offering world class products and services to our clients, helping them get their desired satisfaction. </p>
+                <p class="text-muted mt-2">In our years of existence as a company, we witnessed undeniable growth in terms of customer base and scale thanks to the commitment and professionalism of everyone at the company towards achieving its objectives.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+     <Team/>
+    <Footer/>
+  </div>
 </template>
 
 <script>
-export default {
+import Nav from '@/components/Nav'
+import Header from '@/components/Header'
+import Team from '@/components/Team'
+import Footer from '@/components/Footer'
 
+export default {
+  components:{
+    Nav, Header, Team, Footer
+  }
 }
 </script>
 
-<style>
-
+<style scoped lang="scss">
+.header-bg-img{
+  background-image: url('../assets/img/about-header.jpeg');
+}
 </style>

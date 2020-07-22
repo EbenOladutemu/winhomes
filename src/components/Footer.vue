@@ -3,14 +3,17 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-12">
-          <div class="text-center text-white footer-alt">
-            <ul class="list-unstyled list-inline mb-3">
-              <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-facebook text-muted"></i></a></li>
-              <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-linkedin text-muted"></i></a></li>
-              <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-pinterest text-muted"></i></a></li>
-              <li class="list-inline-item"><a href="index_3.html#"><i class="mdi mdi-twitter text-muted"></i></a></li>
+          <div>
+            <ul class="mb-0 about-social list-inline mt-4">
+              <li class="list-inline-item"><a href="#"><i class="mdi mdi-whatsapp"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
             </ul>
-            <p class="text-muted mb-0"> 2018 - {{year}} © Eben. Design by SRBThemes.</p>
+            <p class="text-muted mt-3 mb-0"> {{year}} © Winhomes Estate. Crafted by 
+              <a href="https://eben.com.ng" title="Eben Web Krafts" target="_blank"><strong>Eben</strong>.</a>
+              All Rights Reserved. Design by SRBThemes.
+            </p>
           </div>
         </div>
       </div>
@@ -28,6 +31,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped lang="scss">
+a{
+  color: #c40201;
+  &:hover{
+    color: rgb(151, 9, 9);
+  }
+}
 </style>
