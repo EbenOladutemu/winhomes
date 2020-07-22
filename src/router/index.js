@@ -49,6 +49,9 @@ const router = new VueRouter({
     } else if (to.hash == '#clients'){
       return { x: 0, y: 3000 }
     }
+    else if (to.hash == '#request'){
+      return { x: 0, y: 1000 }
+    }
     if (savedPosition) {
       return savedPosition
     } else {

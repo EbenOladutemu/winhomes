@@ -118,17 +118,18 @@
         </div>
       </div>
     </section>
-    
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   components:{
-    Nav, Header
+    Nav, Header, Footer
   },
   created(){
     if (location.href.indexOf('reload') == -1){

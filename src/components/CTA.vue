@@ -3,11 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="text-center">
-            <h2>I Am Available For Freelancer.</h2>
-          </div>
           <div class="text-center mt-4">
-            <a href="index_3.html#" class="btn btn-custom">Hire Me!</a>
+            <router-link to="/contact#request" class="btn btn-custom">Request Inspection</router-link>
           </div>
         </div>
       </div>

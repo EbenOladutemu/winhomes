@@ -40,7 +40,7 @@
               </div>
               <div class="mt-3">
                 <h5 class="mb-0 contact_detail-title font-weight-bold">Email Us At</h5>
-                <p class="text-muted">Website.Kerri@gmail.com</p>
+                <p class="text-muted">info.winhomesesates.com</p>
               </div>
             </div>
           </div>
@@ -50,13 +50,14 @@
                 <i class="mbri-pin text-custom h1"></i>
               </div>
               <div class="mt-3">
-                <h5 class="mb-0 contact_detail-title font-weight-bold">Visit Office</h5>
-                <p class="text-muted">202, Grasselli Street , Conway.</p>
+                <h5 class="mb-0 contact_detail-title font-weight-bold">Visit Our Office</h5>
+                <p class="text-muted">8, Williams Onoh Street, Chevy Estate, Chevron Drive, Lekki, Lagos</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+          <h2 class="mt-5 text-center"><span class="font-weight-bold">Request</span> Inspection</h2>
+        <div class="row mt-3">
           <div class="col-lg-12">
             <div class="form-kerri">
               <form>
@@ -82,7 +83,7 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group mt-2">
-                      <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." spellcheck="false">
+                      <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Time of availability...">
                       </textarea>
                     </div>
                   </div>
@@ -98,16 +99,18 @@
         </div>
       </div>
     </section>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   components:{
-    Nav, Header
+    Nav, Header, Footer
   },
 }
 </script>

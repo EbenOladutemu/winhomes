@@ -20,6 +20,7 @@
     </Header>
     <Services id="services"/>
     <Clients id="clients"/>
+    <CTA class="cta"/>
     <Footer/>
   </div>
 </template>
@@ -30,15 +31,18 @@ import Nav from '@/components/Nav.vue'
 import Header from '@/components/Header.vue'
 import Services from '@/components/Services.vue'
 import Clients from '@/components/Clients.vue'
+import CTA from '@/components/CTA'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
-    Nav, Header, Services, Clients, Footer
+    Nav, Header, Services, Clients, CTA, Footer
   }
 }
 </script>
 
-<style lang="stylus" scoped>
-
+<style lang="scss" scoped>
+.cta{
+  background-color: #141415;
+}
 </style>
