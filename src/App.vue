@@ -19,6 +19,9 @@
 export default {
   components:{
     // Nav
+  },
+  created(){
+    document.title = 'Welcome - Winhomes Estate'
   }
 }
 </script>

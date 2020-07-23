@@ -37,6 +37,9 @@ import Footer from '@/components/Footer.vue'
 export default {
   components: {
     Nav, Header, Services, Clients, CTA, Footer
+  },
+  created(){
+    document.title = 'Home - Winhomes Estate'
   }
 }
 </script>

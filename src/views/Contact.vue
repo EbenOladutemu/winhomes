@@ -112,6 +112,9 @@ export default {
   components:{
     Nav, Header, Footer
   },
+  created(){
+    document.title = 'Contact - Winhomes Estate'
+  }
 }
 </script>
 

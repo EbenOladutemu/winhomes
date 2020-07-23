@@ -44,6 +44,9 @@ import Footer from '@/components/Footer'
 export default {
   components:{
     Nav, Header, Team, Footer
+  },
+  created(){
+    document.title = 'About - Winhomes Estate'
   }
 }
 </script>
