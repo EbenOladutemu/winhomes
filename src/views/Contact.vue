@@ -61,7 +61,7 @@
             </div>
           </div>
         </div>
-          <h2 class="mt-5 text-center"><span class="font-weight-bold">Request</span> Inspection</h2>
+        <h2 class="mt-5 text-center"><span class="font-weight-bold">Request</span> Inspection</h2>
         <div class="row mt-3">
           <div class="col-lg-12">
             <div class="form-kerri">
@@ -100,6 +100,9 @@
                 </div>
               </form>
             </div>  
+          </div>
+          <div class="col-lg-12 pt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.604719356835!2d3.5222739148760867!3d6.444770895337377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf6f3eaef7b05%3A0xef3d953023d30337!2s8%20William%20Onoh%20Rd%2C%20Lekki%20Penninsula%20II%2C%20Lekki!5e0!3m2!1sen!2sng!4v1595793255247!5m2!1sen!2sng" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
         </div>
       </div>
