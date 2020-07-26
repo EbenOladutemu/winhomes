@@ -29,18 +29,10 @@
               </div>
               <div class="mt-3">
                 <h5 class="mb-0 contact_detail-title font-weight-bold">Call Us On</h5>
-                <p class="text-muted">+985 123 7856</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="text-center">
-              <div>
-                <i class="mbri-letter text-custom h1"></i>
-              </div>
-              <div class="mt-3">
-                <h5 class="mb-0 contact_detail-title font-weight-bold">Email Us At</h5>
-                <p class="text-muted">info.winhomesesates.com</p>
+                <p class="text-muted">
+                  <a href="tel:+2348054493718">08054493718</a> or 
+                  <a href="tel:+2348036769848">08036769848</a>
+                </p>
               </div>
             </div>
           </div>
@@ -52,6 +44,17 @@
               <div class="mt-3">
                 <h5 class="mb-0 contact_detail-title font-weight-bold">Visit Our Office</h5>
                 <p class="text-muted">8, Williams Onoh Street, Chevy Estate, Chevron Drive, Lekki, Lagos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="text-center">
+              <div>
+                <i class="mbri-letter text-custom h1"></i>
+              </div>
+              <div class="mt-3">
+                <h5 class="mb-0 contact_detail-title font-weight-bold">Email Us At</h5>
+                <p class="text-muted">info.winhomesesates.com</p>
               </div>
             </div>
           </div>
@@ -120,6 +123,13 @@ export default {
 
 <style scoped lang="scss">
 .header-bg-img{
-  background-image: url('../assets/img/contact-header.jpeg');
+  background-image: url('../assets/img/headers/contact-header.jpeg');
+}
+
+a{
+  color:#9695a1;
+  &:hover{
+    color: #c50101;
+  }
 }
 </style>

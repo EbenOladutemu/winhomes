@@ -1,24 +1,10 @@
 <template>
   <section class="section jarallax h-100vh header-bg-img" data-jarallax='{"speed": 0.2}' id="home">
+    <Particles
+      id="tsparticles"
+      :options="options"
+    />
     <div class="bg-overlay"></div>
-    <vue-particles 
-      class="particles"
-      color="#dedede"
-      :particleOpacity="0.7"
-      :particlesNumber="100"
-      shapeType="circle"
-      :particleSize="2"
-      linesColor="#dedede"
-      :linesWidth="1"
-      :lineLinked="true"
-      :lineOpacity="0.4"
-      :linesDistance="150"
-      :moveSpeed="3"
-      :hoverEffect="true"
-      hoverMode="grab"
-      :clickEffect="true"
-      clickMode="push"
-      ></vue-particles>
     <div class="header-table">
       <div class="header-table-center">
         <div class="container position-relative z-index">
@@ -48,24 +34,107 @@
 
 <script>
 import Vue from 'vue'
-import VueParticles from 'vue-particles'
 import Textra from 'vue-textra'
+import Particles from "particles.vue";
+
+Vue.use(Particles);
 
 Vue.use(Textra);
-Vue.use(VueParticles)
 
 export default {
   data(){
     return{
-      words: ["Global Services", "Defined by Service", "and Experience"]
+      words: ["Global Services", "Defined by Service", "and Experience"],
+      options:{
+        fpsLimit: 500,
+        interactivity: {
+          detectsOn: 'canvas',
+          events: {
+            onClick: {
+              enable: true,
+              mode: 'push'
+            },
+            onHover: {
+              enable: true,
+              mode: 'repulse'
+            },
+            resize: true
+          },
+          modes: {
+            bubble: {
+              distance: 400,
+              duration: 2,
+              opacity: 0.8,
+              size: 40,
+              speed: 3
+            },
+            push: {
+              quantity: 4
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4
+            }
+          }
+        },
+        particles: {
+          color: {
+            value: '#bdbbbb'
+          },
+          links: {
+            color: '#18284e',
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1
+          },
+          collisions: {
+            enable: true
+          },
+          move: {
+            direction: 'none',
+            enable: true,
+            outMode: 'bounce',
+            random: false,
+            speed: 6,
+            straight: false
+          },
+          number: {
+            density: {
+              enable: true,
+              value_area: 1000
+            },
+            value: 80
+          },
+          opacity: {
+            value: 1
+          },
+          shape: {
+            type: 'circle'
+          },
+          size: {
+            random: true,
+            value: 6
+          }
+        },
+        detectRetina: true
+      }
     }
   }
 }
 </script>
 
 <style>
-.particles{
+.tsparticles-canvas-el{
   position: absolute;
   z-index: 3;
+  height: 80%!important;
+}
+
+@media (max-width: 756px){
+  .header-content{
+    position: relative;
+    top: 80px;
+  }
 }
 </style>

@@ -14,12 +14,12 @@
       <section class="section" id="about">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-1">
               <div class="mt-3">
-                  <img src="../assets/img/about-img.jpeg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                  <img src="../assets/img/general/about-img.jpeg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-md-1">
               <div class="mt-3">
                 <h2><span class="font-weight-bold">Who</span> We Are</h2>
                 <!-- <h4 class="mt-4">Winhomes! <span class="text-custom font-weight-bold">Global Services</span></h4> -->
@@ -53,6 +53,9 @@ export default {
 
 <style scoped lang="scss">
 .header-bg-img{
-  background-image: url('../assets/img/about-header.jpeg');
+  background-image: url('../assets/img/headers/about-header.jpeg');
+}
+#about {
+  background-color: #26282c;
 }
 </style>

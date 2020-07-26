@@ -13,6 +13,13 @@
     </Header>
     <section class="section text-center" id="work">
       <div class="container">
+        <!-- <Tinybox
+          v-model="index"
+          :images="images"
+          loop
+        /> -->
+      </div>
+      <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12">
             <div class="text-center">
@@ -23,72 +30,69 @@
         <div class="row mt-5 ">
           <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
             <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
-            <li class="list-inline-item"><a class="" data-filter=".seo">Duplex</a></li>
-            <li class="list-inline-item"><a class="" data-filter=".webdesign">Two Bedrooms</a></li>
-            <li class="list-inline-item"><a class="" data-filter=".WORK">Four Bedrooms</a></li>
-            <li class="list-inline-item"><a class="" data-filter=".wordpress">Lands</a></li>
+            <li class="list-inline-item"><a class="" data-filter=".3-bed">3 Bedroom Luxury Apartments</a></li>
+            <li class="list-inline-item"><a class="" data-filter=".4-bed">4 Bedroom Terraced Apartments</a></li>
+            <li class="list-inline-item"><a class="" data-filter=".4-bed-semi">4 Bedroom Semi-detached Apartments</a></li>
+            <li class="list-inline-item"><a class="" data-filter=".5-bed">5 Bedroom Fully-detached Apartments</a></li>
           </ul>
         </div>
       </div>
       <div class="container">
         <div class="row mt-4 work-filter">
-          <div class="col-lg-4 work_item webdesign wordpress">
-            <a href="/img/1.7a9341b3.jpg" class="img-zoom">
+          <div class="col-lg-4 work_item 3-bed">
+            <a href="/img/3-bedroom.4d352e25.jpg" target="_blank" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/1.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/3-bedroom.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
-                  <p class="mb-2">Category</p>
-                  <h4 class="mb-0">Project Title</h4>
+                  <!-- <p class="mb-2">Category</p> -->
+                  <h4 class="mb-0">3 Bedroom Luxury Apartment</h4>
                 </div>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-4 work_item WORK webdesign seo">
-            <a href="../assets/img/2.jpg" class="img-zoom">
+          <div class="col-lg-4 work_item 4-bed">
+            <a href="/img/4-bedroom.853d9637.jpeg" target="_blank" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/2.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/4-bedroom.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
-                  <p class="mb-2">Category</p>
-                  <h4 class="mb-0">Project Title</h4>
+                  <h4 class="mb-0">4 Bedroom Terraced Apartment</h4>
                 </div>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-4 work_item seo wordpress">
-            <a href="../assets/img/3.jpg" class="img-zoom">
+          <div class="col-lg-4 work_item 4-bed-semi">
+            <a href="/img/4-bedroom-semi.d10fd668.jpeg" target="_blank" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/3.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/4-bedroom-semi.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
-                  <p class="mb-2">Category</p>
-                  <h4 class="mb-0">Project Title</h4>
+                  <h4 class="mb-0">4 Bedroom Semi-detached Apartment</h4>
                 </div>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-4 work_item wordpress WORK webdesign">
-            <a href="../assets/img/4.jpg" class="img-zoom">
+          <div class="col-lg-4 work_item 5-bed" style="left: 0">
+            <a href="/img/5-bedroom.e4d4aca1.jpeg" target="_blank" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/4.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/5-bedroom.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
-                  <p class="mb-2">Category</p>
-                  <h4 class="mb-0">Project Title</h4>
+                  <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
                 </div>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-4 work_item seo webdesign">
+          <!-- <div class="col-lg-4 work_item 3-bed 4-bed">
             <a href="../assets/img/5.jpg" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
@@ -100,9 +104,9 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 work_item devlopment webdesign">
+          <!-- <div class="col-lg-4 work_item devlopment 4-bed">
             <a href="../assets/img/6.jpg" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
@@ -114,11 +118,12 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <Footer/>
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/jquery.magnific-popup.min.js"></script>
   </div>
 </template>
 
@@ -126,10 +131,15 @@
 import Nav from '@/components/Nav'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+// import Tinybox from "vue-tinybox";
 
 export default {
   components:{
     Nav, Header, Footer
+  },
+  data(){
+    return{
+    }
   },
   created(){
     if (location.href.indexOf('reload') == -1){
@@ -142,6 +152,6 @@ export default {
 
 <style scoped lang="scss">
 .header-bg-img{
-  background-image: url('../assets/img/projects-header.jpeg');
+  background-image: url('../assets/img/headers/projects-header.jpeg');
 }
 </style>

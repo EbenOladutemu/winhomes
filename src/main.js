@@ -13,6 +13,7 @@ import './assets/css/owl.transitions.css'
 import './assets/css/style.css'
 import './assets/css/default.css'
 
+
 Vue.config.productionTip = false
 
 new Vue({

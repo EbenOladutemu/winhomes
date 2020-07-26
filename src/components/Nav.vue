@@ -3,8 +3,8 @@
     <div class="container">
 
       <a class="navbar-brand pt-0 logo" href="#">
-        <img src="../assets/img/winhomes-light.png" alt="" class="img-fluid logo-light">
-        <img src="../assets/img/winhomes.png" alt="" class="img-fluid logo-dark">
+        <img src="../assets/img/general/winhomes-light.png" alt="" class="img-fluid logo-light">
+        <img src="../assets/img/general/winhomes.png" alt="" class="img-fluid logo-dark">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
