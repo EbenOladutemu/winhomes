@@ -34,6 +34,7 @@
             <li class="list-inline-item"><a class="" data-filter=".4-bed">4 Bedroom Terraced Apartments</a></li>
             <li class="list-inline-item"><a class="" data-filter=".4-bed-semi">4 Bedroom Semi-detached Apartments</a></li>
             <li class="list-inline-item"><a class="" data-filter=".5-bed">5 Bedroom Fully-detached Apartments</a></li>
+            <li class="list-inline-item"><a class="" data-filter=".waterpark">Water Park</a></li>
           </ul>
         </div>
       </div>
@@ -79,11 +80,11 @@
             </a>
           </div>
 
-          <div class="col-lg-4 work_item 5-bed" style="left: 0">
+          <div class="col-lg-4 work_item 5-bed">
             <a href="/img/5-bedroom.e4d4aca1.jpeg" target="_blank" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/projects/5-bedroom.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/5-bedroom.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
                   <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
@@ -92,33 +93,31 @@
             </a>
           </div>
 
-          <!-- <div class="col-lg-4 work_item 3-bed 4-bed">
+          <div class="col-lg-4 work_item waterpark">
             <a href="../assets/img/5.jpg" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/5.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/waterpark.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
-                  <p class="mb-2">Category</p>
-                  <h4 class="mb-0">Project Title</h4>
+                  <h4 class="mb-0">Proposed recreation center to be built in the estate</h4>
                 </div>
               </div>
             </a>
-          </div> -->
+          </div>
 
-          <!-- <div class="col-lg-4 work_item devlopment 4-bed">
+          <div class="col-lg-4 work_item waterpark">
             <a href="../assets/img/6.jpg" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
-                  <img src="../assets/img/6.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                  <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
-                  <p class="mb-2">Category</p>
-                  <h4 class="mb-0">Project Title</h4>
+                  <h4 class="mb-0">Proposed recreation center to be built in the estate</h4>
                 </div>
               </div>
             </a>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>

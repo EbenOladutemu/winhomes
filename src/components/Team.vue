@@ -15,7 +15,7 @@
         <div class="col-lg-4 mt-3">
           <div class="rounded blog_color p-3">
             <div class="img_blog">
-              <img src="../assets/img/team/HARRY-ONYA.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+              <img src="https://via.placeholder.com/1113x1419" alt="" class="img-fluid rounded mx-auto d-block">
             </div>
             <div class="content_blog pt-3 pb-3">
               <div>
@@ -96,7 +96,7 @@
         <div class="col-lg-4 mt-3">
           <div class="rounded blog_color p-3">
             <div class="img_blog">
-              <img src="../assets/img/team/TAIWO-AJAYI.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+              <img src="../assets/img/team/EBENEZER-OLAYORI.jpg" alt="" class="img-fluid rounded mx-auto d-block">
             </div>
             <div class="content_blog" style="padding-top: 1.4rem">
               <div>

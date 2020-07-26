@@ -6,15 +6,21 @@
           <div>
             <ul class="mb-0 about-social list-inline mt-4">
               <li class="list-inline-item">
-                <a rel="noreferrer noopener" href="#"><i class="mdi mdi-whatsapp"></i></a>
+                <a target="_blank" rel="noreferrer noopener" href="https://linkedin.com/company/winhomesestates">
+                <i class="mdi mdi-linkedin"></i></a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" rel="noreferrer noopener" href="https://fb.com/winhomesestates"><i class="mdi mdi-facebook"></i></a>
+                <a target="_blank" rel="noreferrer noopener" href="https://fb.com/winhomesestates">
+                <i class="mdi mdi-facebook"></i></a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" rel="noreferrer noopener" href="https://instagram.com/winhomes_estates"><i class="mdi mdi-instagram"></i></a>
+                <a target="_blank" rel="noreferrer noopener" href="https://instagram.com/winhomesestates">
+                <i class="mdi mdi-instagram"></i></a>
               </li>
-              <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+              <li class="list-inline-item">
+                <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/winhomesestates">
+                <i class="mdi mdi-twitter"></i></a>
+              </li>
             </ul>
             <p class="text-muted mt-3 mb-0"> {{year}} © Winhomes Estate. Crafted by 
               <a href="https://eben.com.ng" title="Eben Web Krafts" target="_blank"><strong>Eben</strong>.</a>
