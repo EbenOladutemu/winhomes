@@ -80,21 +80,8 @@
             </a>
           </div>
 
-          <div class="col-lg-4 work_item 5-bed">
-            <a href="/img/5-bedroom.e4d4aca1.jpeg" target="_blank" rel="noreferrer noopener" class="img-zoom">
-              <div class="work_box">
-                <div class="work_img">
-                  <img src="../assets/img/projects/5-bedroom.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                </div>
-                <div class="work_detail">
-                  <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
           <div class="col-lg-4 work_item waterpark">
-            <a href="../assets/img/5.jpg" class="img-zoom">
+            <a href="/img/waterpark.1f8c5fdb.jpeg" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/waterpark.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
@@ -106,8 +93,21 @@
             </a>
           </div>
 
+          <div class="col-lg-4 work_item 5-bed">
+            <a href="/img/5-bedroom.e4d4aca1.jpeg" target="_blank" rel="noreferrer noopener" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img src="../assets/img/projects/5-bedroom.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                </div>
+                <div class="work_detail">
+                  <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
           <div class="col-lg-4 work_item waterpark">
-            <a href="../assets/img/6.jpg" class="img-zoom">
+            <a href="/img/waterpark-2.091b7df2.jpeg" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
