@@ -13,7 +13,7 @@
         <div class="col-lg-4">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="fas fa-home"></i>
+              <i class="fas fa-home anime"></i>
             </div>
             <div class="mt-4">
               <h5 class="mb-0">Real Estate Development</h5>
@@ -25,7 +25,7 @@
         <div class="col-lg-4">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="fas fa-money-bill-alt"></i>
+              <i class="fas fa-money-bill-alt anime"></i>
             </div>
             <div class="mt-4">
               <h5 class="mb-0">Real Estate Sales</h5>
@@ -36,7 +36,7 @@
         <div class="col-lg-4">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="fas fa-briefcase"></i>
+              <i class="fas fa-briefcase anime"></i>
             </div>
             <div class="mt-4">
               <h5 class="mb-0">Project Management</h5>
@@ -49,7 +49,7 @@
         <div class="col-lg-6">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="far fa-building"></i>
+              <i class="far fa-building anime"></i>
             </div>
             <div class="mt-4">
               <h5 class="mb-0">Facility Management</h5>
@@ -60,7 +60,7 @@
         <div class="col-lg-6">
           <div class="text-center services-boxes rounded p-4 mt-4">
             <div class="services-boxes-icon">
-              <i class="fas fa-sitemap"></i>
+              <i class="fas fa-sitemap anime"></i>
             </div>
             <div class="mt-4">
               <h5 class="mb-0">Architectural Designs and Approvals</h5>
@@ -80,12 +80,28 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .services-boxes .services-title-border {
-    height: 2px;
-    width: 40px;
-    margin: 15px auto;
-    transition: all 0.5s;
-    background: red;
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  transition: all 0.5s;
+  background: red;
+}
+
+.anime{
+  animation: anime 2s infinite;
+}
+
+@keyframes anime {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 </style>
