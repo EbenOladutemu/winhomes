@@ -6,6 +6,7 @@
           <div class="text-center">
             <h2>Our <span class="font-weight-bold">Clients</span></h2>
           </div>
+          <div class="services-title-border"></div>
         </div>
       </div>
       <div class="row mt-4 pt-4">
@@ -73,7 +74,7 @@ export default {
 
 <style scoped lang="scss">
 .bg-light{
-  background-color: #2e3135!important;
+  background-color: #ffffff!important;
 }
 .owl-carousel{
   display: block;

@@ -25,6 +25,7 @@
             <div class="text-center">
               <h2>Our <span class="font-weight-bold">Projects</span></h2>
             </div>
+            <div class="services-title-border"></div>
           </div>
         </div>
         <div class="row mt-5 ">
@@ -141,8 +142,8 @@ export default {
     }
   },
   created(){
-    if (location.href.indexOf('reload') == -1){
-      location.href = location.href + '?reload';
+    if (location.href.indexOf('?') == -1){
+      location.href = location.href + '?';
     }
     document.title = 'Projects - Winhomes Estates'
   }

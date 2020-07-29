@@ -13,7 +13,9 @@
               <div class="text-center header-content mx-auto">
                 <!-- <h4 class="text-white first-title mb-4">Welcome</h4> -->
                 <h1 class="header-name text-white text-capitalize mb-0">
-                  Winhomes Estates
+                  <vue-typed-js :strings="['Winhomes Estates']" :typeSpeed="100" :backSpeed="20" :loop="true">
+                    <h1 class="typing"></h1>
+                  </vue-typed-js>
                   <span class="simple-text-rotate font-weight-bold">
                     <textra :data="words" :timer="3" :infinite="true" filter="right-left"/>
                   </span>
@@ -36,9 +38,10 @@
 import Vue from 'vue'
 import Textra from 'vue-textra'
 import Particles from "particles.vue";
-
+import  VueTypedJs  from 'vue-typed-js'
+ 
+Vue.use(VueTypedJs)
 Vue.use(Particles);
-
 Vue.use(Textra);
 
 export default {
@@ -46,7 +49,7 @@ export default {
     return{
       words: ["Global Services", "Defined by Service", "and Experience"],
       options:{
-        fpsLimit: 500,
+        fpsLimit: 2000,
         interactivity: {
           detectsOn: 'canvas',
           events: {
@@ -102,7 +105,7 @@ export default {
           number: {
             density: {
               enable: true,
-              value_area: 1000
+              value_area: 700
             },
             value: 80
           },
@@ -136,5 +139,11 @@ export default {
     position: relative;
     top: 80px;
   }
+}
+.typed-element{
+  display: inline-flex;
+}
+.typing{
+  font-size: 54px;
 }
 </style>

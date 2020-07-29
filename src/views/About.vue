@@ -56,6 +56,6 @@ export default {
   background-image: url('../assets/img/headers/about-header.jpeg');
 }
 #about {
-  background-color: #26282c;
+  background-color: #f8f9fa;
 }
 </style>

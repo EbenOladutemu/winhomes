@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center mt-4">
-            <router-link to="/contact#request" class="btn btn-custom">Request Inspection</router-link>
+            <router-link to="/contact#request" class="btn btn-custom request">Request Inspection</router-link>
           </div>
         </div>
       </div>
@@ -19,5 +19,7 @@ export default {
 </script>
 
 <style>
-
+.request:hover{
+  transform: scale(1.2);
+}
 </style>

@@ -17,10 +17,9 @@
   6.SERVICES
   7.CLIENT
   8.WORK
-  9.BLOG
-  10.CONTACT
-  11.FOOTER
-  12.RESPONSIVE
+  9.CONTACT
+  10.FOOTER
+  11.RESPONSIVE
 ************************/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
@@ -32,8 +31,6 @@
 body {
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
-  color: #fbfbfb;
-  background: #2e3135;
 }
 
 h1,
@@ -69,7 +66,7 @@ button:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #26282b;
+  background-color: #fff;
   z-index: 9999999;
 }
 
@@ -87,10 +84,10 @@ button:focus {
   font-size: 10px;
   position: relative;
   text-indent: -9999em;
-  border-top: 5px solid #2e3135;
-  border-right: 5px solid #2e3135;
-  border-bottom: 5px solid #2e3135;
-  border-left: 5px solid #6b6e6f;
+  border-top: 5px solid rgba(0, 0, 0, 0.2);
+  border-right: 5px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  border-left: 5px solid #000;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
@@ -156,20 +153,7 @@ button:focus {
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
-  background-color: #2e3135;
-}
-
-.bg-light {
-  background-color: #26282b !important;
-}
-
-.text-muted {
-  color: #a0a0ac !important;
-}
-
-.img-thumbnail {
-  background-color: #3b3e42;
-  border: 1px solid #4d5052;
+  background-color: #fff;
 }
 
 .h-100vh {
@@ -239,7 +223,7 @@ button:focus {
 }
 
 .bg-overlay {
-  background-color: rgba(38, 40, 43, 0.72);
+  background-color: rgba(0, 0, 0, 0.69);
   position: absolute;
   top: 0;
   right: 0;
@@ -307,7 +291,7 @@ button:focus {
 
 .custom-nav.stickyadd {
   background-color: #fff !important;
-  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.051);
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.050980392156862744);
   padding: 15px 0px;
 }
 
@@ -321,7 +305,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-  background-image: url("../img/headers/header.jpeg");
+background-image: url("../img/headers/header.jpeg");
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -427,13 +411,13 @@ height: 180px;
 =============================*/
 
 .about-social li a {
-  color: #a0a0ac;
+  color: #000;
   display: inline-block;
   height: 42px;
   width: 42px;
   font-size: 20px;
   border-radius: 50%;
-  border: 2px solid #6b6e6f;
+  border: 2px solid #d4d4d4;
   line-height: 38px;
   transition: all 0.5s;
   text-align: center;
@@ -445,7 +429,7 @@ height: 180px;
 =============================*/
 
 .services-boxes {
-  border: 1px solid #353941;
+  border: 1px solid #e8e8e8;
 }
 
 .services-boxes .services-boxes-icon i {
@@ -606,32 +590,22 @@ height: 180px;
 }
 
 .work_box:hover .work_img:after {
-  background: rgba(38, 40, 43, 0.72);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .work_box:hover .work_img>img {
   transform: scale(1.05);
 }
 
+
 /*=========================
       9.CONTACT
-===========================*/
-
-.blog_color{
-  background-color: #2e3135;
-}
-
-
-/*=========================
-      10.CONTACT
 ===========================*/
 
 .form-kerri .form-control {
   box-shadow: none !important;
   height: 50px;
-  border: 2px solid #3b3e42;
-  background-color: transparent;
-  color: #fbfbfb;
+  border: 2px solid #e0e0e0;
 }
 
 .form-kerri textarea.form-control {
@@ -645,14 +619,14 @@ height: 180px;
 .error {
   margin: 8px 0px;
   display: none;
-  color: #ec5f79;
+  color: red;
 }
 
 .error_msg {
   margin-bottom: 20px;
   text-align: center;
   font-size: 18px;
-  color: #ec5f79;
+  color: red;
   font-weight: 700;
 }
 
@@ -666,18 +640,18 @@ height: 180px;
 }
 
 #success_msg h3 {
-  color: #64d674;
+  color: #0dba26;
   font-size: 22px;
 }
 
 
 /*======================
-      11.FOOTER
+      10.FOOTER
 ========================*/
 
 .footer {
   padding: 70px 0px;
-  background-color: #26282b !important;
+  /* background-color: #242424 !important; */
 }
 
 .footer .footer-alt p {
@@ -698,7 +672,7 @@ height: 180px;
 
 
 /*===========================
-      12.RESPONSIVE
+      11.RESPONSIVE
 =============================*/
 
 @media (min-width: 200px) and (max-width: 768px) {
@@ -730,7 +704,7 @@ height: 180px;
   .header-bg-img {
       clip-path: none;
       padding: 120px 0 140px;
-  }        
+  }
   .wave-home.h-100vh{
       height: auto;
       padding: 120px 0 190px;

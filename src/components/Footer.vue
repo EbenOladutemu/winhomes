@@ -50,4 +50,7 @@ a{
     color: rgb(151, 9, 9);
   }
 }
+.about-social a:hover{
+  transform: rotateY(180deg);
+}
 </style>

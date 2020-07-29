@@ -6,6 +6,7 @@
           <div class="text-center">
             <h2>What We <span class="font-weight-bold">Do</span></h2>
           </div>
+          <div class="services-title-border"></div>
         </div>
       </div>
       <div class="row mt-5">
@@ -80,5 +81,11 @@ export default {
 </script>
 
 <style>
-
+.services-boxes .services-title-border {
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    transition: all 0.5s;
+    background: red;
+}
 </style>

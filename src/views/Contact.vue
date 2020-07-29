@@ -17,6 +17,7 @@
           <div class="col-lg-12">
             <div class="text-center">
               <h2><span class="font-weight-bold">Contact</span> Us</h2>
+              <div class="services-title-border"></div>
               <p class="text-muted mx-auto section-subtitle mt-3">
                 Reach out to us anytime. We love to hear from you.
               </p>
@@ -56,12 +57,15 @@
               </div>
               <div class="mt-3">
                 <h5 class="mb-0 contact_detail-title font-weight-bold">Email Us At</h5>
-                <p class="text-muted">info.winhomesesates.com</p>
+                <p class="text-muted">
+                  <a href="mailto:info@winhomesesates.com">info@winhomesesates.com</a>
+                </p>
               </div>
             </div>
           </div>
         </div>
         <h2 class="mt-5 text-center"><span class="font-weight-bold">Request</span> Inspection</h2>
+        <div class="services-title-border"></div>
         <div class="row mt-3">
           <div class="col-lg-12">
             <div class="form-kerri">
