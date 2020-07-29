@@ -48,4 +48,8 @@ html{
   transition: all 0.5s;
   background-color: #c40201;
 }
+
+.ekko-lightbox a:hover{
+  color: #fff!important;
+}
 </style>

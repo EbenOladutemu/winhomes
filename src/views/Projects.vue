@@ -11,19 +11,8 @@
     <Header>
       <p slot="sub-text" class="text-white mx-auto header-desc mt-4">Projects</p>
     </Header>
-    <!-- <a href="https://unsplash.it/1200/768.jpg?image=251" data-gallery="dud" data-toggle="lightbox">
-      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-    </a>
-    <a href="https://unsplash.it/1200/768.jpg?image=251" data-gallery="dud" data-toggle="lightbox">
-      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-    </a> -->
     <section class="section text-center" id="work">
       <div class="container">
-        <!-- <Tinybox
-          v-model="index"
-          :images="images"
-          loop
-        /> -->
       </div>
       <div class="container">
         <div class="row justify-content-center">
@@ -88,10 +77,23 @@
           </div>
 
           <div class="col-lg-4 work_item waterpark">
-            <a href="/img/waterpark.1f8c5fdb.jpeg" class="img-zoom">
+            <a href="/img/waterpark.1f8c5fdb.jpeg" data-gallery="projects" data-toggle="lightbox" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/waterpark.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                </div>
+                <div class="work_detail">
+                  <h4 class="mb-0">Proposed recreation center to be built in the estate</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 work_item waterpark">
+            <a href="/img/waterpark-2.091b7df2.jpeg" data-gallery="projects" data-toggle="lightbox" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
                   <h4 class="mb-0">Proposed recreation center to be built in the estate</h4>
@@ -112,24 +114,10 @@
               </div>
             </a>
           </div>
-
-          <div class="col-lg-4 work_item waterpark">
-            <a href="/img/waterpark-2.091b7df2.jpeg" class="img-zoom">
-              <div class="work_box">
-                <div class="work_img">
-                  <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                </div>
-                <div class="work_detail">
-                  <h4 class="mb-0">Proposed recreation center to be built in the estate</h4>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
     </section>
     <Footer/>
-    <script type="application/javascript" src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/jquery.magnific-popup.min.js"></script>
   </div>
 </template>
 
@@ -137,7 +125,6 @@
 import Nav from '@/components/Nav'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-// import Tinybox from "vue-tinybox";
 
 export default {
   components:{
@@ -159,8 +146,5 @@ export default {
 <style scoped lang="scss">
 .header-bg-img{
   background-image: url('../assets/img/headers/projects-header.jpeg');
-}
-a:hover{
-  color: #fff!important;
 }
 </style>
