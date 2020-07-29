@@ -36,6 +36,7 @@
     <meta name="twitter:creator" content="@EbenOladutemu">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -48,11 +49,16 @@
     <script src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha512-jCaU0Dp3IbMDlZ6f6dSEQSnOrSsugG6F6YigRWnagi7HoOLshF1kwxLT4+xCZRgQsTNqpUKj6WmWOxsu9l3URA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/switcher.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.8.0/jarallax.min.js" integrity="sha512-xhVBTcD/UdhIGWj1RMt6ntWTv/OvGqggXvLIOepTsmUrBuJ0WXBpQvEtrgDI6JtfDmTbdupghGgrSA116hhufg==" crossorigin="anonymous"></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.6/venobox.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/EbenOladutemu/winhomes@v1.0/src/assets/js/custom.js"></script>
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
   </body>
 </html>
