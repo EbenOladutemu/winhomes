@@ -10,8 +10,10 @@ import './assets/css/animate.min.css'
 import './assets/css/owl.carousel.css'
 import './assets/css/owl.theme.css'
 import './assets/css/owl.transitions.css'
+import './assets/css/venobox.css'
 import './assets/css/style.css'
 import './assets/css/default.css'
+import './assets/css/winhomes.css'
 
 
 Vue.config.productionTip = false

@@ -11,6 +11,116 @@
     <Header>
       <p slot="sub-text" class="text-white mx-auto header-desc mt-4">Projects</p>
     </Header>
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container animated pulse">
+
+        <div class="section-title text-center animated wow fadeInUp">
+          <h2>Pictures Worth A Thousand Words</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Leadership</li>
+              <li data-filter=".filter-card">Random</li>
+              <!-- <li data-filter=".filter-web">Rest</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/3-bedroom.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/3-bedroom.4d352e25.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i>hg</a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/4-bedroom.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>App 1</h4>
+                <p>App</p> -->
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/4-bedroom.853d9637.jpeg" data-gall="portfolioGallery" class="venobox">gj<i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/4-bedroom-semi.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/4-bedroom-semi.d10fd668.jpeg" data-gall="portfolioGallery" class="venobox">dkm<i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/waterpark.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/waterpark.1f8c5fdb.jpeg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/waterpark.jpeg" style="height: 262px" class="img-fluid" alt="">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/waterpark.1f8c5fdb.jpeg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/waterpark-2.091b7df2.jpeg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-links">
+                <a href="/img/waterpark-2.091b7df2.jpeg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
     <section class="section text-center" id="work">
       <div class="container">
         <!-- <Tinybox
