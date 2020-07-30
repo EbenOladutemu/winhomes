@@ -132,6 +132,9 @@ export default {
   },
   data(){
     return{
+      image:{
+        one: 'Fluffy Doughnut'
+      }
     }
   },
   created(){

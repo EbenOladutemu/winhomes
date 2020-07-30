@@ -52,4 +52,10 @@ html{
 .ekko-lightbox a:hover{
   color: #fff!important;
 }
+.modal-footer{
+  /* display: block!important; */
+}
+.ekko-lightbox .modal-footer {
+  text-align: center;
+}
 </style>

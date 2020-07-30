@@ -13,9 +13,10 @@
               <div class="text-center header-content mx-auto">
                 <!-- <h4 class="text-white first-title mb-4">Welcome</h4> -->
                 <h1 class="header-name text-white text-capitalize mb-0">
-                  <vue-typed-js :strings="['Winhomes Estates']" :typeSpeed="100" :backSpeed="20" :loop="true">
+                  <vue-typed-js :strings="['Winhomes Estates']" :typeSpeed="100" :backSpeed="50" :loop="true" class="typed-hide">
                     <h1 class="typing"></h1>
                   </vue-typed-js>
+                  <span class="typed-show">Winhomes Estates</span>
                   <span class="simple-text-rotate font-weight-bold">
                     <textra :data="words" :timer="3" :infinite="true" filter="right-left"/>
                   </span>
@@ -145,5 +146,21 @@ export default {
 }
 .typing{
   font-size: 54px;
+}
+@media (max-width: 990px) {
+  .typed-show{
+    display: block;
+  }
+  .typed-hide{
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .typed-show{
+    display: none;
+  }
+  .typed-hide{
+    display: inline-flex;
+  }
 }
 </style>
