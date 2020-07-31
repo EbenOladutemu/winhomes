@@ -83,7 +83,7 @@ export default {
         },
         particles: {
           color: {
-            value: '#bdbbbb'
+            value: '#ffffff'
           },
           links: {
             color: '#18284e',
@@ -129,11 +129,26 @@ export default {
 </script>
 
 <style>
+.mainTextra{
+  background: linear-gradient(45deg, #fff, #fff, #c10102, #fff, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .tsparticles-canvas-el{
   position: absolute;
   z-index: 3;
   height: 80%!important;
 }
+
+.typed-element{
+  display: inline-flex;
+}
+.typing{
+  font-size: 54px;
+}
+
 
 @media (max-width: 756px){
   .header-content{
@@ -141,15 +156,13 @@ export default {
     top: 80px;
   }
 }
-.typed-element{
-  display: inline-flex;
-}
-.typing{
-  font-size: 54px;
-}
 @media (max-width: 990px) {
   .typed-show{
     display: block;
+    background: linear-gradient(45deg, #fff, #fff, #c10102, #fff, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .typed-hide{
     display: none;
@@ -161,6 +174,10 @@ export default {
   }
   .typed-hide{
     display: inline-flex;
+    background: linear-gradient(45deg, #fff, #fff, #c10102, #fff, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 </style>

@@ -24,7 +24,7 @@
                 <h2><span class="font-weight-bold">Who</span> We Are</h2>
                 <!-- <h4 class="mt-4">Winhomes! <span class="text-custom font-weight-bold">Global Services</span></h4> -->
                 <p class="text-muted mt-4">Win Homes Global Services Ltd is a real estate sales and development company committed to offering world class products and services to our clients, helping them get their desired satisfaction. </p>
-                <p class="text-muted mt-2">In our years of existence as a company, we witnessed undeniable growth in terms of customer base and scale thanks to the commitment and professionalism of everyone at the company towards achieving its objectives.</p>
+                <p class="text-muted mt-2">In our years of existence as a company, we have witnessed undeniable growth in terms of customer base and scale thanks to the commitment and professionalism of everyone at the company towards achieving its objectives.</p>
               </div>
             </div>
           </div>

@@ -49,11 +49,15 @@ html{
   background-color: #c40201;
 }
 
+.bg-overlay{
+  background-color: #54545480!important;
+}
+
 .ekko-lightbox a:hover{
   color: #fff!important;
 }
 .modal-footer{
-  /* display: block!important; */
+  display: block!important;
 }
 .ekko-lightbox .modal-footer {
   text-align: center;

@@ -81,6 +81,9 @@ export default {
 </script>
 
 <style scoped>
+.services-boxes .services-boxes-icon i{
+  color: #c50101;
+}
 .services-boxes .services-title-border {
   height: 2px;
   width: 40px;
