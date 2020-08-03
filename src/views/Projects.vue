@@ -37,7 +37,7 @@
       <div class="container">
         <div class="row mt-4 work-filter">
           <div class="col-lg-4 work_item 3-bed">
-            <a href="/img/3-bedroom.4d352e25.jpg" data-gallery="projects" data-toggle="lightbox" rel="noreferrer noopener" class="img-zoom">
+            <a href="/img/3-bedroom.4d352e25.jpg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.winhomes" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/3-bedroom.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
@@ -51,7 +51,7 @@
           </div>
 
           <div class="col-lg-4 work_item 4-bed">
-            <a href="/img/4-bedroom.853d9637.jpeg" data-gallery="projects" data-toggle="lightbox" rel="noreferrer noopener" class="img-zoom">
+            <a href="/img/4-bedroom.853d9637.jpeg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.semiDetached4B" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/4-bedroom.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
@@ -64,7 +64,7 @@
           </div>
 
           <div class="col-lg-4 work_item 4-bed-semi">
-            <a href="/img/4-bedroom-semi.d10fd668.jpeg" data-gallery="projects" data-toggle="lightbox" rel="noreferrer noopener" class="img-zoom">
+            <a href="/img/4-bedroom-semi.d10fd668.jpeg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.semiDetached4B" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/4-bedroom-semi.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
@@ -77,7 +77,7 @@
           </div>
 
           <div class="col-lg-4 work_item waterpark">
-            <a href="/img/waterpark.1f8c5fdb.jpeg" data-gallery="projects" data-toggle="lightbox" class="img-zoom">
+            <a href="/img/waterpark.1f8c5fdb.jpeg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.waterpark" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/waterpark.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
@@ -90,7 +90,7 @@
           </div>
 
           <div class="col-lg-4 work_item waterpark">
-            <a href="/img/waterpark-2.091b7df2.jpeg" data-gallery="projects" data-toggle="lightbox" class="img-zoom">
+            <a href="/img/waterpark-2.091b7df2.jpeg" data-gallery="projects" :data-footer="projectsDescription.waterpark" data-toggle="lightbox" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/waterpark-2.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
@@ -103,10 +103,36 @@
           </div>
 
           <div class="col-lg-4 work_item 5-bed">
-            <a href="/img/5-bedroom.e4d4aca1.jpeg" data-gallery="projects" data-toggle="lightbox" rel="noreferrer noopener" class="img-zoom">
+            <a href="/img/5-bedroom.e4d4aca1.jpeg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.fullyDetached5B" rel="noreferrer noopener" class="img-zoom">
               <div class="work_box">
                 <div class="work_img">
                   <img src="../assets/img/projects/5-bedroom.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                </div>
+                <div class="work_detail">
+                  <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 work_item 5-bed">
+            <a href="/img/5-bedroom-2.229603fb.jpg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.fullyDetached5B" rel="noreferrer noopener" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img src="../assets/img/projects/5-bedroom-2.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                </div>
+                <div class="work_detail">
+                  <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 work_item 5-bed">
+            <a href="/img/5-bedroom-3.a7bfa516.jpg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.fullyDetached5B" rel="noreferrer noopener" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img src="../assets/img/projects/5-bedroom-3.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
                 </div>
                 <div class="work_detail">
                   <h4 class="mb-0">5 Bedroom Fully-detached Apartment</h4>
@@ -132,8 +158,12 @@ export default {
   },
   data(){
     return{
-      image:{
-        one: 'Fluffy Doughnut'
+      projectsDescription:{
+        fullyDetached5B: '5-bedroom fully detached ultra luxury apartments to be developed in our winhomes estate.' + '<br>' + 'These apartments will feature state of the art finishes oozing class, elegance and architectural brilliance.',
+        semiDetached4B: ' ',
+        terraced4B: ' ',
+        winhomes: ' ',
+        waterpark: ' '
       }
     }
   },
