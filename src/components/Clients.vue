@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="text-center">
-            <h2>Our <span class="font-weight-bold">Clients</span></h2>
+            <h2>Brand <span class="font-weight-bold">Ambassador</span></h2>
           </div>
           <div class="services-title-border"></div>
         </div>
