@@ -47,7 +47,7 @@ const router = new VueRouter({
     if (to.hash == '#services') {
       return { x: 0, y: 500 }
     } else if (to.hash == '#clients'){
-      return { x: 0, y: 3000 }
+      return { x: 0, y: 1700 }
     }
     else if (to.hash == '#request'){
       return { x: 0, y: 1000 }

@@ -1,0 +1,81 @@
+<template>
+  <section class="section bg-light" id="team">
+    <div class="container">   
+      <div class="row justify-content-center">
+        <h1 class="animated tada wow infinite">NOW SELLING!!!</h1>
+        <div class="col-lg-12 mt-3">
+          <div class="rounded blog_color p-3">
+          <h4 class="font-weight-bold mt-3 mb-3">
+            <span class="text-dark">Winhome Estates</span>
+          </h4>
+            <div class="img_blog">
+              <img src="../assets/img/projects/3-bedroom.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+            </div>
+            <div class="content_blog">
+              <div class="mt-3">
+                <h3 class="mt-5">Our Offer</h3>
+                <p class="mt-3 desc_blog">
+                  We are currently selling plots of land in Winhomes estate located at Okun Ajah town in Eti-Osa LGA, Lagos state.<br> This fast selling property has the following amazing features:
+                </p>
+                <ul class="pl-2 mt-2">
+                  <li>❖	Title: GOVERNOR’S CONSENT</li>
+                  <li>❖	Dry Land (available and ready for immediate construction) </li>
+                  <li>❖	Survey plan for the plot spaces</li>
+                  <li>❖	No hidden charges (Development fee inclusive, Planned infrastructures and amenities which includes: power supply, paved roads, covered drainages, water supply, perimeter fencing, street lights, etc.) </li>
+                  <li>❖	Commercial area</li>
+                  <li>❖	Restricted access</li>
+                  <li>❖	School</li>
+                  <li>❖	Recreation facilities (water park)</li>
+                </ul>
+                <div v-show="show">
+                  <p>
+                    <strong>Great location:</strong> Proximity to Chevron, Lekki conservation, Lekki Epe express via Orchid Hotel Road, proposed coastal road running from Victoria Island/Ikoyi to Ibeju Lekki and several other prime spots (Prime mall, Lekki Miami beach), access through Ogombo road, located directly behind coop Lag Estate.
+                  </p>
+                  <h3 class="mt-3">Our Price</h3>
+                  <p>
+                    Our offer is at the most competitive prices and also includes flexible payment plans for interested buyers One plot of land (600/sqm) is ₦20,000,000 (₦33.333/sqm). Other available plot sizes includes: 300sqm, 500sqm and 750sqm.
+                  </p>
+                  <ul class="pl-2 mt-2">
+                    <li>✓	This price includes development fee as drainage works and paved road construction works are currently on going</li>
+                    <li>✓	Available flexible payments plans include: 30% down payment (minimum) and the balance spreads evenly over 3, 6 or 12 months as it’s convenient for the buyer</li>
+                    <li>✓	No hidden charges</li>
+                    <li>✓	Allocation confirmed upon receipt of the 30% down payment and a buyer specific sales agreement issued to the buyer stating the terms of the contract pending the final liquidation of the outstanding amount.</li>
+                    <li>✓	We also provide an inbound sales and after-sales service to every buyer helping you make the best buying decisions and also ensure that your after-purchase experience is euphoric.</li>
+                  </ul>
+                </div>
+                <button class="btn btn-custom" @click="readMore">
+                  <span v-if="!show">Read More</span>
+                  <span v-else>Show Less</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  data(){
+    return{
+      show: false
+    }
+  },
+  methods:{
+    readMore(){
+      this.show = !this.show
+    }
+  }
+}
+</script>
+
+<style scoped>
+li{
+  list-style: none;
+}
+.btn-custom{
+  padding: 5px 4px;
+}
+</style>

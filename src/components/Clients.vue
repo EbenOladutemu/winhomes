@@ -13,7 +13,7 @@
         <div class="col-lg-12">
           <carousel
             class="owl-carousel"
-            :loop="true"
+            :loop="false"
             :autoplay="true"
             :autoplayHoverPause="true"
             :items="1"
@@ -26,11 +26,11 @@
                 <div>
                     <img src="../assets/img/testi-1.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block rounded-circle">
                 </div>
-                <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
-                <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
+                <p class="client_review font-italic mt-4 text-center text-muted">"Something to promote"</p>
+                <p class="client_name text-center mb-0 mt-4">- Orezi, <span class="font-weight-bold">(Multiple award-winning and hit making artiste)</span></p>
               </div>
             </div>
-            <div class="text-center testi_boxes mx-auto">
+            <!-- <div class="text-center testi_boxes mx-auto">
               <div class="tam_testi_icon text-custom">
                 <i class="mbri-quote-left"></i>
               </div>
@@ -41,8 +41,8 @@
                 <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
                 <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
               </div>
-            </div>
-            <div class="text-center testi_boxes mx-auto">
+            </div> -->
+            <!-- <div class="text-center testi_boxes mx-auto">
               <div class="tam_testi_icon text-custom">
                 <i class="mbri-quote-left"></i>
               </div>
@@ -53,7 +53,7 @@
                 <p class="client_review font-italic mt-4 text-center text-muted">" The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
                 <p class="client_name text-center mb-0 mt-4">- Ebony verty, <span class="font-weight-bold">Envato</span></p>
               </div>
-            </div>
+            </div> -->
           </carousel>
         </div>
       </div>

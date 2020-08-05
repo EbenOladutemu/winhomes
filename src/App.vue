@@ -22,6 +22,9 @@ export default {
   },
   created(){
     document.title = 'Welcome - Winhomes Estate'
+  },
+  metaInfo:{
+    
   }
 }
 </script>
