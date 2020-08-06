@@ -16,22 +16,31 @@
                     <img src="../assets/img/projects/3-bedroom.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                   <div class="carousel-item" data-interval="2000">
-                    <img src="../assets/img/projects/winhomes-2.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                    <img src="../assets/img/projects/winhomes/winhomes-2.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/img/projects/winhomes-3.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                    <img src="../assets/img/projects/winhomes/winhomes-3.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/img/projects/winhomes-4.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                    <img src="../assets/img/projects/winhomes/winhomes-4.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/img/projects/winhomes-5.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                    <img src="../assets/img/projects/winhomes/winhomes-5.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/img/projects/winhomes-6.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                    <img src="../assets/img/projects/winhomes/winhomes-6.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/img/projects/winhomes-7.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                    <img src="../assets/img/projects/winhomes/winhomes-7.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/projects/winhomes/winhomes-12.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/projects/winhomes/winhomes-13.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/projects/winhomes/winhomes-14.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
