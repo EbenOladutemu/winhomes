@@ -5,7 +5,7 @@
         <router-link class="nav-link" active-class="active" to="home#services">What We Do</router-link>
       </li>
       <li class="nav-item" slot="nav-items">
-        <router-link class="nav-link" active-class="active" to="home#clients">Clients</router-link>
+        <router-link class="nav-link" active-class="active" to="projects">Clients</router-link>
       </li>
     </Nav>
     <Header>
@@ -33,8 +33,9 @@
               <div class="mt-3">
                 <h5 class="mb-0 contact_detail-title font-weight-bold">Call Us On</h5>
                 <p class="text-muted">
-                  <a href="tel:+2348054493718">08054493718</a> or 
-                  <a href="tel:+2348036769848">08036769848</a>
+                  <a href="tel:+2348054493718">08054493718</a>, 
+                  <a href="tel:+2348036769848">08036769848</a>, <br>
+                  <a href="tel:+1 (832) 8551163">+1 (832) 855-1163 [USA]</a>
                 </p>
               </div>
             </div>

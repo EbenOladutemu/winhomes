@@ -5,7 +5,7 @@
         <router-link class="nav-link" active-class="active" to="home#services">What We Do</router-link>
       </li>
       <li class="nav-item" slot="nav-items">
-        <router-link class="nav-link" active-class="active" to="home#clients">Clients</router-link>
+        <router-link class="nav-link" active-class="active" to="projects">Clients</router-link>
       </li>
     </Nav>
     <Header>
@@ -26,6 +26,7 @@
         <div class="row mt-5 ">
           <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
             <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
+            <li class="list-inline-item"><a class="" data-filter=".completed">Completed</a></li>
             <li class="list-inline-item"><a class="" data-filter=".3-bed">3 Bedroom Luxury Apartments</a></li>
             <li class="list-inline-item"><a class="" data-filter=".4-bed">4 Bedroom Terraced Apartments</a></li>
             <li class="list-inline-item"><a class="" data-filter=".4-bed-semi">4 Bedroom Semi-detached Apartments</a></li>
@@ -140,6 +141,19 @@
               </div>
             </a>
           </div>
+
+          <div class="col-lg-4 work_item completed">
+            <a href="/img/stonehedge.1ed2006e.jpeg" data-gallery="projects" data-toggle="lightbox" :data-footer="projectsDescription.stonehedge" rel="noreferrer noopener" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img src="../assets/img/projects/stonehedge.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                </div>
+                <div class="work_detail">
+                  <h4 class="mb-0">Stonehedge Engineering Ltd.</h4>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -160,6 +174,7 @@ export default {
     return{
       projectsDescription:{
         fullyDetached5B: '5-bedroom fully detached ultra luxury apartments to be developed in our winhomes estate.' + '<br>' + 'These apartments will feature state of the art finishes oozing class, elegance and architectural brilliance.',
+        stonehedge: 'Stonehedge Engineering Ltd is our trusted partner in Project development and they remain our choice because of their wealth of experience in projects of this magnitude and the company boasts of a long list of successfully executed projects. They bring unparalleled experience, attention to detail, collaboration and value engineering ability to projects. Below is a list of Some of Our Previously completed and ongoing projects:<br><br> <p>Diamond Estate, Monastery Sangotedo, Lagos [2010]</p><p>Royal Palm Estate, Ibeju Lekki, Lagos [2016]</p><p>Inspire Homes Estate, Apo Abuja-FCT [2017]</p><p>Stonehedge Estate, Okun Ajah Town, Lagos [2019] - Ongoing</p>',
         semiDetached4B: ' ',
         terraced4B: ' ',
         winhomes: ' ',

@@ -130,7 +130,7 @@ export default {
 
 <style>
 #jarallax-container-0{
-  position: initial!important;
+  /* position: initial!important; */
   /* clip:rect(0, 411px, 831.21875px, 0)!important; */
 }
 .mainTextra{

@@ -24,7 +24,7 @@ export default {
     document.title = 'Welcome - Winhomes Estate'
   },
   metaInfo:{
-    
+
   }
 }
 </script>
@@ -53,7 +53,7 @@ html{
 }
 
 .bg-overlay{
-  background-color: #54545480!important;
+  background-color: #54545420!important;
 }
 
 .ekko-lightbox a:hover{

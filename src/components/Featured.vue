@@ -2,7 +2,7 @@
   <section class="section bg-light" id="team">
     <div class="container">   
       <div class="row justify-content-center">
-        <h1 class="animated tada wow infinite">NOW SELLING!!!</h1>
+        <h1 class="animated tada wow infinite text-red">NOW SELLING!!!</h1>
         <div class="col-lg-12 mt-3">
           <div class="rounded blog_color p-3">
           <h4 class="font-weight-bold mt-3 mb-3">

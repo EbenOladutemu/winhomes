@@ -5,7 +5,7 @@
         <router-link class="nav-link" active-class="active" to="home#services">What We Do</router-link>
       </li>
       <li class="nav-item" slot="nav-items">
-        <router-link class="nav-link" active-class="active" to="home#clients">Clients</router-link>
+        <router-link class="nav-link" active-class="active" to="projects">Clients</router-link>
       </li>
     </Nav>
     <Header>

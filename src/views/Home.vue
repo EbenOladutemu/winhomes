@@ -5,7 +5,7 @@
           <a class="nav-link" active-class="active" href="#services">What We Do</a>
       </li>
       <li class="nav-item" slot="nav-items">
-          <a class="nav-link" active-class="active" href="#clients">Clients</a>
+          <a class="nav-link" active-class="active" href="projects">Clients</a>
       </li>
     </Nav>
     <Header>
