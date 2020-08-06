@@ -129,6 +129,10 @@ export default {
 </script>
 
 <style>
+#jarallax-container-0{
+  position: initial!important;
+  /* clip:rect(0, 411px, 831.21875px, 0)!important; */
+}
 .mainTextra{
   background: linear-gradient(45deg, #fff, #fff, #c10102, #fff, #fff);
   background-clip: text;

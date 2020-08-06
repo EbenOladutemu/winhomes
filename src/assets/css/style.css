@@ -698,7 +698,7 @@ height: 180px;
       display: none;
   }
   .h-100vh {
-      height: auto;
+      /* height: auto; */
       padding: 120px 0 140px;
   }
   .header-bg-img {
