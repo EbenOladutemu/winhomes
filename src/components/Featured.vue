@@ -11,7 +11,7 @@
             <div class="img_blog">
               <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-interval="10000">
+                  <div class="carousel-item active" data-interval="1000">
                     <!-- <img src="..." class="d-block w-100" alt="..."> -->
                     <img src="../assets/img/projects/3-bedroom.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
@@ -41,6 +41,27 @@
                   </div>
                   <div class="carousel-item">
                     <img src="../assets/img/projects/winhomes/winhomes-14.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer-1.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer-2.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer-3.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer-4.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer-5.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/flyers/flyer-6.jpeg" alt="" class="img-fluid rounded mx-auto d-block">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">

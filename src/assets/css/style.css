@@ -333,7 +333,7 @@ background-image: url("../img/projects/5-bedroom-2.jpg");
 .header-desc {
   max-width: 500px;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 .scroll_down {
