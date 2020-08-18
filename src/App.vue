@@ -25,20 +25,20 @@ export default {
   },
   metaInfo:{
     meta: [
-      { name: 'description', content: 'Winhomes Estates Global Services' },
+      { name: 'description', content: 'Defined By Service and Experience' },
       { name: 'author', content: 'Eben Web Krafts' },
       { name: 'keywords', content: 'Winhomes Estates Global Services, winhomes, estates, real estates, land, housing, rent' },
       { name: 'website', content: 'Winhomes Estates Global Services' },
       { name: 'image', content: 'https://winhomesestates.com/favicon.ico' },
       // Schema.org for Google
-      { itemprop: 'name', content: 'Winhomes Estates Global Services' },
+      { itemprop: 'name', content: 'Winhomes Estates' },
       { itemprop: 'title', content: 'Winhomes Estates Global Services' },
-      { itemprop: 'description', content: 'Winhomes Estates Global Services' },
+      { itemprop: 'description', content: 'Defined By Service and Experience' },
       { itemprop: 'image', content: 'https://winhomesestates.com/favicon.ico' },
       // Twitter - Product (e-commerce)
       // Open Graph general (Facebook, Pinterest & Google+)
       { property: 'og:title', content: 'Winhomes Estates Global Services' },
-      { property: 'og:description', content: 'Winhomes Estates Global Services' },
+      { property: 'og:description', content: 'Defined By Service and Experience' },
       { property: 'og:url', content: 'https://winhomesestates.com' },
       { property: 'og:image', content: 'https://winhomesestates.com/favicon.ico' },
       { property: 'og:type', content: 'website' },
@@ -48,7 +48,7 @@ export default {
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:url', content: 'https://winhomesestates.com' },
       { name: 'twitter:title', content: 'Winhomes Estates Global Services' },
-      { name: 'twitter:description', content: 'Winhomes Estates Global Services' },
+      { name: 'twitter:description', content: 'Defined By Service and Experience' },
       { name: 'twitter:image', content: 'https://winhomesestates.com/favicon.ico' },
       { name: 'twitter:site', content: 'https://winhomesestates.com' },
       { name: 'twitter:creator', content: '@EbenOladutemu' }
